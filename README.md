@@ -1,5 +1,5 @@
 <p align="center">
-  <b> Network and DataUsage Monitoring </b><br>
+  <b>Network and DataUsage Monitoring </b><br>
 </p>
 
 # Description<br>
@@ -12,14 +12,14 @@
 * In your terminal use the below commands 
   - To get type of interface to monitor data usage
   
-        		vnstat
+        vnstat
    
   - For obatining hourly usage today
   
-        ~/vnstat -h -i wlo1 > d.txt | python3 data_today.py3/ 
+        vnstat -h -i wlo1 > d.txt | python3 data_today.py3/ 
         
   - For obatining past 24 hours data</br>
   
-          ~/vnstat -h -i wlo1 > d.txt | python3 data_24 hrs.py3/ 
+         vnstat -h -i wlo1 > d.txt | python3 data_24 hrs.py3/ 
           
 Note : Here “wlo1” is your system's wireless interface network. You can also use for ethernet by changing interface name. 
