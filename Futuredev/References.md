@@ -1,6 +1,6 @@
 #Reference links:
 
-1)vnstat- [https://www.howtoforge.com/tutorial/vnstat-network-monitoring-ubuntu/#-hourly-statistics]
+1) vnstat- [https://www.howtoforge.com/tutorial/vnstat-network-monitoring-ubuntu/#-hourly-statistics]
 
 2) GNU plot - [https://www.datafix.com.au/BASHing/2019-06-21.html]
 
