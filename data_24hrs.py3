@@ -37,7 +37,6 @@ for i in range(16,24):
 		total_data = round(total_data * 1.04 , 2)     #MiB to MB conversion
 		data[h] = total_data
 		
-#pprint.pprint(data)
 
 
 def string_rotate(input,d): 
@@ -68,8 +67,6 @@ plt.title("Data Usage over past 24 hours ",fontsize = 20,fontweight="bold")
 plt.xlabel("time inetrval")
 plt.ylabel("Data used in MB")
 #plt.show(block = False)
-
-
 
 
 file.close()
