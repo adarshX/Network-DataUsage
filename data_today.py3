@@ -1,11 +1,9 @@
 import numpy as np 
 from matplotlib import pyplot as plt 
-import timeit as t
 import os
 from datetime import datetime
-import pprint
 
-start = t.timeit()
+
 filepath = 'd.txt'
 file = open(filepath , 'r')
 
@@ -42,7 +40,6 @@ for i in range(16,24):
 		total_data = round(total_data * 1.04 , 2)     #MiB to MB conversion
 		data[h] = total_data
 		
-#pprint.pprint(data)
 
 
 def string_rotate(input,d): 
@@ -84,6 +81,4 @@ print(date,month,year, ":Total data used today(wlo1 network) =", datausage , "MB
 plt.text(1 , max(Y)/2 , f"Data used today = {datausage} MB" , fontsize = 14 ,   color = 'orange',fontname='Comic Sans MS',bbox=dict(facecolor='none', edgecolor='violet'))
 file.close()
 os.remove(filepath)
-stop = t.timeit()
-#print("Time taken for processing=",abs(start-stop))
 plt.show()
