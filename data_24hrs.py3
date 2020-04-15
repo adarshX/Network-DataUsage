@@ -1,9 +1,7 @@
 import numpy as np 
 from matplotlib import pyplot as plt 
-import timeit as t
 import os
 from datetime import datetime
-import pprint
 
 
 filepath = 'd.txt'
