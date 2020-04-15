@@ -5,7 +5,6 @@ import os
 from datetime import datetime
 import pprint
 
-
 filepath = 'd.txt'
 file = open(filepath , 'r')
 
