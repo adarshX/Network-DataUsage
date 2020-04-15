@@ -1,6 +1,8 @@
+<!---
 <p align="center">
   <b>Network and DataUsage Monitoring </b><br>
 </p>
+-->
 
 # Description<br>
 * A CLI(Command line interface) based application for obtaining statistics of data usage in Linux based systems(Ubuntu)
