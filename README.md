@@ -17,11 +17,11 @@
   
         vnstat
    
-  - For obatining hourly usage today
+  - For obatining hourly usage today with plot
   
         vnstat -h -i wlo1 > d.txt | python3 data_today.py3/ 
         
-  - For obatining past 24 hours data</br>
+  - For obatining past 24 hours data with plot</br>
   
          vnstat -h -i wlo1 > d.txt | python3 data_24 hrs.py3/ 
           
