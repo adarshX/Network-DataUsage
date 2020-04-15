@@ -3,10 +3,11 @@
 </p>
 
 # Description<br>
-* A CLI based application for obtaining statistics of data usage in Linux based systems(Ubuntu)
+* A CLI(Command line interface) based application for obtaining statistics of data usage in Linux based systems(Ubuntu)
 * This repository consits of python source codes required to find houlry data usage and plot it.
 # Requirements
-* Download these files and run the below commands to get live graphs of data usage. 
+* `Python3` is required with numpy and matplotlib installed
+* Download these files [data_today.py3](data_today.py3) and [data_24hrs.py3](data_24hrs.py3) and run the below commands to get live graphs of data usage. 
 * `vnstat` is required and can be installed from [here](https://tecadmin.net/setup-vnstat-network-traffic-monitor-on-ubuntu/)
 ## How to Use 
 * In your terminal use the below commands 
